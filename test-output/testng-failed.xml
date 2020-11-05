@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG_Concepts]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNG Groups Concept(failed)">
+    <parameter name="url" value="http://tek-school.com/retail/"/>
+    <classes>
+      <class name="testNG.concepts.TestNGPractice">
+        <methods>
+          <include name="quit"/>
+          <include name="openBrowser"/>
+          <include name="getTitleOfPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG.concepts.TestNGPractice -->
+    </classes>
+  </test> <!-- TestNG Groups Concept(failed) -->
+</suite> <!-- Failed suite [TestNG_Concepts] -->

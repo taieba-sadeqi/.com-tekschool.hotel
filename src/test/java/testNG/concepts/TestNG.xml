@@ -1,0 +1,14 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG_Concepts">
+	
+	
+	<test name="TestNG Groups Concept">
+	 <parameter name ="url" value="http://tek-school.com/retail/"/>
+		<classes>
+			
+			<class name ="testNG.concepts.TestNGPractice"/>
+			
+		</classes>
+	</test>
+</suite>
